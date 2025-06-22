@@ -1,0 +1,42 @@
+{
+    "home": {
+        "title": "Hi, I'am Osama Amin",
+        "role": "Full Stack Java Developer <br/> React.JS Developer",
+        "short_descreption": "Experienced Full Stack Java and React JS Developer with 3.5 years of hands-on experience.",
+        "links": {
+            "linkedin": "",
+            "instagram": "",
+            "github": ""
+        }
+    },
+    "about_me": {
+        "intro": "Myself Osam Amin Khan, a dedicated and passionate Full Stack Developer with over 3.5 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.",
+        "exp": [
+            {
+                "keyEvent": "3.5",
+                "valueEvent": "Years\nexperience"
+            },
+            {
+                "keyEvent": "02+",
+                "valueEvent": "Completed\ncertifications"
+            },
+            {
+                "keyEvent": "02",
+                "valueEvent": "companies\nworked"
+            }
+        ],
+        "abou_image": ""
+    },
+    "experience": [
+        {
+            "companyName": "Finlogic Technologies India Pvt. Ltd.",
+            "position": "Assistant Manager",
+            "years": "2022 - Present"
+        },
+        {
+            "companyName": "Cognizant Technology Solution",
+            "position": "Software Engineer Trainee",
+            "years": "2021 - 2022"
+        }
+    ]
+}
