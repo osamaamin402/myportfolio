@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export default function Header() {
 
-    const [themeIcon, setThemeIcon] = useState(localStorage.getItem('themeIcon') === 'uil-sun' ? 'uil-sun' : 'uil-moon');
+    const [themeIcon, setThemeIcon] = useState(localStorage.getItem('themeIcon') !== 'uil-sun' ? 'uil-sun' : 'uil-moon');
     useEffect(() => {
         themeIcon === 'uil-moon' ? document.body.classList.remove('dark-theme') : document.body.classList.add('dark-theme');
         const scrollHeader = () => {
