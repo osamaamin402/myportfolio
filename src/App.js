@@ -13,6 +13,11 @@ import './styles.css';
 
 function App() {
   useEffect(() => {
+    if (localStorage.getItem('themeIcon') === undefined || localStorage.getItem('themeIcon') !== null) {
+      document.body.classList.add('dark-theme');
+    } else {
+      localStorage.getItem('themeIcon') === 'uil-moon' ? document.body.classList.remove('dark-theme') : document.body.classList.add('dark-theme');
+    }
     const scrollActive = () => {
       const sections = document.querySelectorAll("section[id]");
       const scrollY = window.pageYOffset;
@@ -36,7 +41,7 @@ function App() {
 
     window.addEventListener("scroll", scrollActive);
 
-   
+
     return () => {
       window.removeEventListener("scroll", scrollActive);
     };
@@ -50,7 +55,7 @@ function App() {
       <Qualification />
       <Services />
       <Contact />
-      <Footer/>
+      <Footer />
     </>
   );
 }
