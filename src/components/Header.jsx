@@ -28,17 +28,18 @@ export default function Header() {
 
     }
 
-
-    const navMenu = document.getElementById("nav-menu");
-
-
     function handleShowMenu() {
-        navMenu.classList.add("show-menu");
-
+        const navMenu = document.getElementById("nav-menu");
+        if (navMenu) {
+            navMenu.classList.add("show-menu");
+        }
     }
-    function handleHideMenu() {
-        navMenu.classList.remove("show-menu");
 
+    function handleHideMenu() {
+        const navMenu = document.getElementById("nav-menu");
+        if (navMenu) {
+            navMenu.classList.remove("show-menu");
+        }
     }
     return (<>
         <header className="header" id="header">
