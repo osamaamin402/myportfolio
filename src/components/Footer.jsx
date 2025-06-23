@@ -28,11 +28,11 @@ export default function Footer() {
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 text-center mb-3 mb-md-0">
-                            &copy; <a className="border-bottom text-secondary" href="/">osamaamin402</a>, All Right Reserved.
+                            &copy; <a className="border-bottom text-secondary" href="#home">osamaamin402</a>, All Right Reserved.
                         </div>
                         <div className="col-md-6 text-center ">
                            
-                            Designed By <a className="border-bottom text-secondary" href="/">Osama Amin Khan</a>
+                            Designed By <a className="border-bottom text-secondary" href="#home">Osama Amin Khan</a>
                         </div>
                     </div>
                 </div>
