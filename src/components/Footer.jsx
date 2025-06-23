@@ -38,7 +38,7 @@ export default function Footer() {
                 </div>
             </div>
 
-            <a href="#" class="scrollup" id="scroll-up">
+            <a href="#home" class="scrollup" id="scroll-up">
                 <i class="uil uil-arrow-up scrollup__icon"></i>
             </a>
 
