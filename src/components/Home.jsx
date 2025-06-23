@@ -23,7 +23,7 @@ export default function Home() {
 
 
                         <div className="home__data">
-                            <h1 className="home__title">Hi, I'am Osama Amin</h1>
+                            <h1 className="home__title">Hi, I'm Osama Amin</h1>
                             <h3 className="home__subtitle">Full Stack Java Developer <br></br> React.JS Developer</h3>
                             <p className="home__description">Experienced Full Stack Java and React JS Developer with 3.5 years of hands-on experience.</p>
                             <a href="#contact" className="button button--flex home__button">
