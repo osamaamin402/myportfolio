@@ -23,7 +23,7 @@ export default function Footer() {
 
     return (
         <>
-          
+
             <div className="container-fluid  py-4 footer-shadow">
                 <div className="container">
                     <div className="row">
@@ -31,14 +31,18 @@ export default function Footer() {
                             &copy; <a className="border-bottom text-secondary" href="#home">osamaamin402</a>, All Right Reserved.
                         </div>
                         <div className="col-md-6 text-center ">
-                           
+
                             Designed By <a className="border-bottom text-secondary" href="#home">Osama Amin Khan</a>
                         </div>
                     </div>
                 </div>
             </div>
-       
 
-    </>
-  );
+            <a href="#" class="scrollup" id="scroll-up">
+                <i class="uil uil-arrow-up scrollup__icon"></i>
+            </a>
+
+
+        </>
+    );
 }
