@@ -6,7 +6,6 @@ export default function MyModal(props) {
 
   const experience = props.experience;
   const details = experience.details;
-  console.log("check: "+JSON.stringify(details));
   return (
     <div
       className={`services__modal ${props.showModal ? "active-modal" : ""
