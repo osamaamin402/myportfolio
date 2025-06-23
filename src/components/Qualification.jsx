@@ -34,7 +34,6 @@ export default function Qualification() {
     }
     function handleModal(index) {
         setExperience(experiences[index]);
-        console.log("abc"+index);
         setModalShow(true);
     }
     function handleModalClose() {
