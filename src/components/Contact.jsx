@@ -35,7 +35,7 @@ export default function Contact() {
                         </div>
                     </div>
                     <div className="contact__information row ">
-                         <p class="mb-2">Follow me:</p>
+                         <p className="mb-2">Follow me:</p>
                         <div className="d-flex pt-2">
                             <a href="https://www.instagram.com/its.amin.007/" target="_blank" rel='noreferrer'><i className="uil uil-instagram contact__icon"></i></a>
                             <a href="https://www.facebook.com/osama.amin.182/"  target="_blank" rel='noreferrer'><i className="uil uil-facebook-f contact__icon"></i></a>
