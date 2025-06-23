@@ -13,7 +13,7 @@ import './styles.css';
 
 function App() {
   useEffect(() => {
-    if (localStorage.getItem('themeIcon') === undefined || localStorage.getItem('themeIcon') !== null) {
+    if (localStorage.getItem('themeIcon') === undefined || localStorage.getItem('themeIcon') === null) {
       document.body.classList.add('dark-theme');
       localStorage.setItem('themeIcon','uil-sun');
     } else {
