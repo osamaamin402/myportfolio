@@ -13,8 +13,8 @@ export default function Skills() {
     title: "Programming Languages",
     subtitle: "Strong problem solving",
     skills: [
-      { name: "Java", level: "82%", barClass: "skills__java" },
-      { name: "C++", level: "76%", barClass: "skills__cpp" },
+      { name: "Java", level: "70%", barClass: "skills__java" },
+      { name: "C++", level: "60%", barClass: "skills__cpp" },
     ],
   },
   {
@@ -22,11 +22,11 @@ export default function Skills() {
     title: "Front End",
     subtitle: "Modern UI development",
     skills: [
-      { name: "React JS", level: "85%", barClass: "skills__react" },
-      { name: "JSP", level: "72%", barClass: "skills__jsp" },
+      { name: "React JS", level: "70%", barClass: "skills__react" },
+      { name: "JSP", level: "70%", barClass: "skills__jsp" },
       { name: "HTML", level: "80%", barClass: "skills__html" },
-      { name: "CSS", level: "75%", barClass: "skills__css" },
-      { name: "JavaScript", level: "83%", barClass: "skills__js" },
+      { name: "CSS", level: "80%", barClass: "skills__css" },
+      { name: "JavaScript", level: "70%", barClass: "skills__js" },
     ],
   },
   {
@@ -34,14 +34,14 @@ export default function Skills() {
     title: "Back End",
     subtitle: "Robust Java stack",
     skills: [
-      { name: "Spring", level: "81%", barClass: "skills__spring" },
-      { name: "Spring Boot", level: "84%", barClass: "skills__springboot" },
-      { name: "Spring MVC", level: "78%", barClass: "skills__springmvc" },
-      { name: "Spring Data JPA", level: "79%", barClass: "skills__jpa" },
-      { name: "Hibernate", level: "80%", barClass: "skills__hibernate" },
-      { name: "Microservices", level: "82%", barClass: "skills__microservices" },
-      { name: "Spring Data JDBC", level: "73%", barClass: "skills__jdbc" },
-      { name: "J2EE", level: "75%", barClass: "skills__j2ee" },
+      { name: "Spring", level: "70%", barClass: "skills__spring" },
+      { name: "Spring Boot", level: "70%", barClass: "skills__springboot" },
+      { name: "Spring MVC", level: "70%", barClass: "skills__springmvc" },
+      { name: "Spring Data JPA", level: "65%", barClass: "skills__jpa" },
+      { name: "Hibernate", level: "70%", barClass: "skills__hibernate" },
+      { name: "Microservices", level: "70%", barClass: "skills__microservices" },
+      { name: "Spring Data JDBC", level: "70%", barClass: "skills__jdbc" },
+      { name: "J2EE", level: "60%", barClass: "skills__j2ee" },
     ],
   },
   {
@@ -50,7 +50,7 @@ export default function Skills() {
     subtitle: "Reliable RDBMS",
     skills: [
       { name: "MySQL", level: "80%", barClass: "skills__mysql" },
-      { name: "Oracle", level: "77%", barClass: "skills__oracle" },
+      { name: "Oracle", level: "65%", barClass: "skills__oracle" },
     ],
   },
   {
@@ -58,11 +58,11 @@ export default function Skills() {
     title: "Tools & Technologies",
     subtitle: "DevOps and productivity",
     skills: [
-      { name: "RabbitMQ", level: "74%", barClass: "skills__rabbitmq" },
-      { name: "Redis Rate Limiter", level: "71%", barClass: "skills__redis" },
-      { name: "GitHub", level: "85%", barClass: "skills__github" },
-      { name: "GitLab", level: "72%", barClass: "skills__gitlab" },
-      { name: "MS Office", level: "78%", barClass: "skills__office" },
+      { name: "RabbitMQ", level: "80%", barClass: "skills__rabbitmq" },
+      { name: "Redis Rate Limiter", level: "70%", barClass: "skills__redis" },
+      { name: "GitHub", level: "80%", barClass: "skills__github" },
+      { name: "GitLab", level: "85%", barClass: "skills__gitlab" },
+      { name: "MS Office", level: "80%", barClass: "skills__office" },
     ],
   },
 ];

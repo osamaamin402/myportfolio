@@ -9,11 +9,11 @@ export default function About() {
                 <img src={abouMeImg} alt="" className="about__img" />
                 <div className="about__data">
                     <p className="about__description">
-                        Myself Osam Amin Khan, a dedicated and passionate Full Stack Developer with over 3.5 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.
+                        Myself Osam Amin Khan, a dedicated and passionate Full Stack Developer with over 3.8 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.
                     </p>
                     <div className="about__info">
                         <div>
-                            <span className="about__info-title">3.5</span>
+                            <span className="about__info-title">3.8</span>
                             <span className="about__info-name">Years <br /> experience</span>
                         </div>
                         <div>
