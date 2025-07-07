@@ -1,10 +1,18 @@
 import { useEffect, useState } from "react";
 
 export default function Header() {
-
-    const [themeIcon, setThemeIcon] = useState(localStorage.getItem('themeIcon') !== 'uil-sun' ? 'uil-sun' : 'uil-moon');
+    const [themeIcon, setThemeIcon] = useState(() => {
+        const saved = localStorage.getItem("themeIcon");
+        return saved === "uil-moon" ? "uil-moon" : "uil-sun";
+    });
     useEffect(() => {
-        themeIcon === 'uil-moon' ? document.body.classList.remove('dark-theme') : document.body.classList.add('dark-theme');
+        if (themeIcon === "uil-sun") {
+            document.body.classList.add("dark-theme"); // 🌙 Dark
+        } else {
+            document.body.classList.remove("dark-theme"); // ☀️ Light
+        }
+        localStorage.setItem("themeIcon", themeIcon);
+
         const scrollHeader = () => {
             const nav = document.getElementById("header");
             if (window.scrollY >= 80) {
@@ -15,18 +23,15 @@ export default function Header() {
         };
 
         window.addEventListener("scroll", scrollHeader);
-
-        // Cleanup on component unmount
         return () => {
             window.removeEventListener("scroll", scrollHeader);
         };
     })
-    function handleTheme() {
-        themeIcon === 'uil-moon' ? document.body.classList.remove('dark-theme') : document.body.classList.add('dark-theme');
-        setThemeIcon(() => themeIcon === 'uil-moon' ? 'uil-sun' : 'uil-moon');
-        localStorage.setItem('themeIcon', themeIcon);
 
+    function handleTheme() {
+        setThemeIcon(prev => (prev === "uil-sun" ? "uil-moon" : "uil-sun"));
     }
+
 
     function handleShowMenu() {
         const navMenu = document.getElementById("nav-menu");
