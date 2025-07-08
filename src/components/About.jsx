@@ -12,17 +12,6 @@ export default function About({ aboutData }) {
                         {aboutData.intro}
                     </p>
                     <div className="about__info">
-
-                        {/* <span className="about__info-title">3.8</span>
-                            <span className="about__info-name">Years <br /> experience</span>
-                        </div>
-                        <div>
-                            <span className="about__info-title">02+</span>
-                            <span className="about__info-name">Completed <br /> certifications</span>
-                        </div>
-                        <div>
-                            <span className="about__info-title">02</span>
-                            <span className="about__info-name">companies<br />worked</span> */}
                         {aboutData.experience.map((data, index) => {
                             return <div key={index}>
                                 <span className="about__info-title">{data.keyEvent}</span>
