@@ -1,0 +1,341 @@
+{
+    "home": {
+        "title": "Hi, I'am Osama Amin",
+        "role": "Full Stack Java Developer\nReact.JS Developer",
+        "short_descreption": "Experienced Full Stack Java and React JS Developer with 3.8 years of hands-on experience.",
+        "links": [
+            {
+                "link_name": "LINKEDIN",
+                "link_uri": "https://www.linkedin.com/in/osama-amin-khan-855299185/",
+                "link_icon": "uil uil-linkedin-alt"
+            },
+            {
+                "link_name": "TWITTER",
+                "link_uri": "https://x.com/OsamaAm48154487",
+                "link_icon": "uil uil-twitter-alt"
+            },
+            {
+                "link_name": "GITHB",
+                "link_uri": "https://github.com/osamaamin402",
+                "link_icon": "uil uil-github-alt"
+            }
+        ]
+    },
+    "about_me": {
+        "title": "About Me",
+        "subTotle": "My Introduction",
+        "intro": "Myself Osam Amin Khan, a dedicated and passionate Full Stack Developer with over 3.5 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.",
+        "experience": [
+            {
+                "keyEvent": "3.5",
+                "valueEvent": "Years\nexperience"
+            },
+            {
+                "keyEvent": "02+",
+                "valueEvent": "Completed\ncertifications"
+            },
+            {
+                "keyEvent": "02",
+                "valueEvent": "companies\nworked"
+            }
+        ]
+    },
+    "qualifiction": {
+        "title": "Qualification",
+        "subTitle": "My personal journey",
+        "tabs": [
+            {
+                "tabIndex": 0,
+                "tabTitle": "Education",
+                "tabIcon": "uil uil-graduation-cap qualification__icon"
+            },
+            {
+                "tabIndex": 1,
+                "tabTitle": "Work Experience",
+                "tabIcon": "uil uil-briefcase-alt qualification__icon"
+            }
+        ],
+        "experience": [
+            {
+                "title": "Assistant Manager",
+                "subtitle": "Finlogic Technologies India Pvt. Ltd | NJ Group",
+                "year": "2022 - Present",
+                "modalIndex": 0,
+                "experience_details": {
+                    "title": "Full Stack Java Developer | React JS Developer",
+                    "details": [
+                        "Developed and deployed a range of modules in EWA applications.",
+                        "Implemented multiple reusable React components which reduced the effort and development time of other developers.",
+                        "Enriched network security by introducing rate limiter.",
+                        "Worked on Banking, Finance and Mutual Fund Domain."
+                    ]
+                }
+            },
+            {
+                "title": "Software Engineer Trainee",
+                "subtitle": "Cognizant Technology Solution",
+                "year": "2021 - 2022",
+                "modalIndex": 1,
+                "experience_details": {
+                    "title": "Full Stack Java Developer | React JS Developer",
+                    "details": [
+                        "Implemented API for generating pdf and converting pdf into octet byte stream to reduce response time and storage.",
+                        "Improved application performance by replacing SQL queries with functions and procedures.",
+                        "Collaborated with cross-functional teams, product managers, designers, and ensuring high-quality results.",
+                        "Worked on Health Care Domain."
+                    ]
+                }
+            }
+        ],
+        "educationData": [
+            {
+                "title": "BE-Computer Science and Engineering",
+                "subtitle": "Sipna College of Engineering and Technology",
+                "year": "2018 - 2021"
+            },
+            {
+                "title": "Diploma in Computer Technology",
+                "subtitle": "V.Y.W.S Polytechnic Badnera.",
+                "year": "2016 - 2018"
+            }
+        ]
+    },
+    "skills": [
+        {
+            "icon": "uil uil-brackets-curly",
+            "title": "Programming Languages",
+            "subtitle": "Strong problem solving",
+            "skills": [
+                {
+                    "name": "Java",
+                    "level": "70%",
+                    "barClass": "skills__java"
+                },
+                {
+                    "name": "C++",
+                    "level": "60%",
+                    "barClass": "skills__cpp"
+                }
+            ]
+        },
+        {
+            "icon": "uil uil-desktop",
+            "title": "Front End",
+            "subtitle": "Modern UI development",
+            "skills": [
+                {
+                    "name": "React JS",
+                    "level": "70%",
+                    "barClass": "skills__react"
+                },
+                {
+                    "name": "JSP",
+                    "level": "70%",
+                    "barClass": "skills__jsp"
+                },
+                {
+                    "name": "HTML",
+                    "level": "80%",
+                    "barClass": "skills__html"
+                },
+                {
+                    "name": "CSS",
+                    "level": "80%",
+                    "barClass": "skills__css"
+                },
+                {
+                    "name": "JavaScript",
+                    "level": "70%",
+                    "barClass": "skills__js"
+                }
+            ]
+        },
+        {
+            "icon": "uil uil-server-network",
+            "title": "Back End",
+            "subtitle": "Robust Java stack",
+            "skills": [
+                {
+                    "name": "Spring",
+                    "level": "70%",
+                    "barClass": "skills__spring"
+                },
+                {
+                    "name": "Spring Boot",
+                    "level": "70%",
+                    "barClass": "skills__springboot"
+                },
+                {
+                    "name": "Spring MVC",
+                    "level": "70%",
+                    "barClass": "skills__springmvc"
+                },
+                {
+                    "name": "Spring Data JPA",
+                    "level": "65%",
+                    "barClass": "skills__jpa"
+                },
+                {
+                    "name": "Hibernate",
+                    "level": "70%",
+                    "barClass": "skills__hibernate"
+                },
+                {
+                    "name": "Microservices",
+                    "level": "70%",
+                    "barClass": "skills__microservices"
+                },
+                {
+                    "name": "Spring Data JDBC",
+                    "level": "70%",
+                    "barClass": "skills__jdbc"
+                },
+                {
+                    "name": "J2EE",
+                    "level": "60%",
+                    "barClass": "skills__j2ee"
+                }
+            ]
+        },
+        {
+            "icon": "uil uil-database",
+            "title": "Databases",
+            "subtitle": "Reliable RDBMS",
+            "skills": [
+                {
+                    "name": "MySQL",
+                    "level": "80%",
+                    "barClass": "skills__mysql"
+                },
+                {
+                    "name": "Oracle",
+                    "level": "65%",
+                    "barClass": "skills__oracle"
+                }
+            ]
+        },
+        {
+            "icon": "uil uil-setting",
+            "title": "Tools & Technologies",
+            "subtitle": "DevOps and productivity",
+            "skills": [
+                {
+                    "name": "RabbitMQ",
+                    "level": "80%",
+                    "barClass": "skills__rabbitmq"
+                },
+                {
+                    "name": "Redis Rate Limiter",
+                    "level": "70%",
+                    "barClass": "skills__redis"
+                },
+                {
+                    "name": "GitHub",
+                    "level": "80%",
+                    "barClass": "skills__github"
+                },
+                {
+                    "name": "GitLab",
+                    "level": "85%",
+                    "barClass": "skills__gitlab"
+                },
+                {
+                    "name": "MS Office",
+                    "level": "80%",
+                    "barClass": "skills__office"
+                }
+            ]
+        }
+    ],
+    "services": {
+        "title": "Services",
+        "subTitle": "What I offer",
+        "details": [
+            {
+                "icon": "uil-server skills__icon",
+                "title": "Java Developer",
+                "details": [
+                    "Developed responsive UIs using React JS.",
+                    "Built RESTful APIs with Spring Boot and Java.",
+                    "Implemented microservices architecture.",
+                    "Worked with MySQL, JPA, and Hibernate."
+                ]
+            },
+            {
+                "icon": "uil uil-react skills__icon",
+                "title": "React.JS",
+                "details": [
+                    "Built dynamic user interfaces using React.",
+                    "Managed state with useState, useContext, and Redux.",
+                    "Worked with component-based architecture.",
+                    "Integrated REST APIs and optimized performance."
+                ]
+            },
+            {
+                "icon": "uil uil-brackets-curly services__icon",
+                "title": "Web Developer",
+                "details": [
+                    "Built responsive UIs with ReactJS.",
+                    "Integrated RESTful APIs and managed state.",
+                    "Developed backend with Java and Spring Boot.",
+                    "Followed clean code and MVC design patterns."
+                ]
+            },
+            {
+                "icon": "uil uil-server-network skills__icon",
+                "title": "Microservices",
+                "details": [
+                    "Built scalable services using Spring Boot.",
+                    "Implemented REST APIs and service discovery.",
+                    "Worked with Docker and container orchestration.",
+                    "Managed inter-service communication and security."
+                ]
+            },
+            {
+                "icon": "uil uil-exchange skills__icon",
+                "title": "RESTful API Developer",
+                "details": [
+                    "Designed RESTful APIs using Spring Boot.",
+                    "Used HTTP methods: GET, POST, PUT, DELETE.",
+                    "Followed REST constraints: stateless, cacheable, uniform interface.",
+                    "Secured APIs using JWT and Spring Security."
+                ]
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact me",
+        "subTitle": "Get in touch",
+        "contactDetails": [
+            {
+                "contactTitle": "Call me",
+                "contactSubTilte": "(+91) 7350492047",
+                "contactIcon": "uil uil-phone-alt contact__icon"
+            },
+            {
+                "contactTitle": "E-mail",
+                "contactSubTilte": "osamaamin402@gmail.com",
+                "contactIcon": "uil uil-envelope contact__icon"
+            },
+            {
+                "contactTitle": "Location",
+                "contactSubTilte": "Amravati, Maharashtra, India",
+                "contactIcon": "uil uil-map-marker contact__icon"
+            }
+        ],
+        "contactLinks":[
+            {
+                "link":"https://www.instagram.com/its.amin.007/",
+                "icon":"uil uil-instagram contact__icon"
+            },
+            {
+                "link":"https://www.facebook.com/osama.amin.182/",
+                "icon":"uil uil-facebook-f contact__icon"
+            },
+            {
+                "link":"https://www.linkedin.com/in/osama-amin-khan-855299185/",
+                "icon":"uil uil-linkedin contact__icon"
+            }
+        ]
+    }
+}

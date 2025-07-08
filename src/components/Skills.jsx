@@ -1,71 +1,13 @@
 import { useState } from "react";
 
-export default function Skills() {
+export default function Skills({skills}) {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleSkills = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  const skillGroups = [
-  {
-    icon: "uil uil-brackets-curly",
-    title: "Programming Languages",
-    subtitle: "Strong problem solving",
-    skills: [
-      { name: "Java", level: "70%", barClass: "skills__java" },
-      { name: "C++", level: "60%", barClass: "skills__cpp" },
-    ],
-  },
-  {
-    icon: "uil uil-desktop",
-    title: "Front End",
-    subtitle: "Modern UI development",
-    skills: [
-      { name: "React JS", level: "70%", barClass: "skills__react" },
-      { name: "JSP", level: "70%", barClass: "skills__jsp" },
-      { name: "HTML", level: "80%", barClass: "skills__html" },
-      { name: "CSS", level: "80%", barClass: "skills__css" },
-      { name: "JavaScript", level: "70%", barClass: "skills__js" },
-    ],
-  },
-  {
-    icon: "uil uil-server-network",
-    title: "Back End",
-    subtitle: "Robust Java stack",
-    skills: [
-      { name: "Spring", level: "70%", barClass: "skills__spring" },
-      { name: "Spring Boot", level: "70%", barClass: "skills__springboot" },
-      { name: "Spring MVC", level: "70%", barClass: "skills__springmvc" },
-      { name: "Spring Data JPA", level: "65%", barClass: "skills__jpa" },
-      { name: "Hibernate", level: "70%", barClass: "skills__hibernate" },
-      { name: "Microservices", level: "70%", barClass: "skills__microservices" },
-      { name: "Spring Data JDBC", level: "70%", barClass: "skills__jdbc" },
-      { name: "J2EE", level: "60%", barClass: "skills__j2ee" },
-    ],
-  },
-  {
-    icon: "uil uil-database",
-    title: "Databases",
-    subtitle: "Reliable RDBMS",
-    skills: [
-      { name: "MySQL", level: "80%", barClass: "skills__mysql" },
-      { name: "Oracle", level: "65%", barClass: "skills__oracle" },
-    ],
-  },
-  {
-    icon: "uil uil-setting",
-    title: "Tools & Technologies",
-    subtitle: "DevOps and productivity",
-    skills: [
-      { name: "RabbitMQ", level: "80%", barClass: "skills__rabbitmq" },
-      { name: "Redis Rate Limiter", level: "70%", barClass: "skills__redis" },
-      { name: "GitHub", level: "80%", barClass: "skills__github" },
-      { name: "GitLab", level: "85%", barClass: "skills__gitlab" },
-      { name: "MS Office", level: "80%", barClass: "skills__office" },
-    ],
-  },
-];
+  const skillGroups = skills;
 
   return (
     <section className="skills section" id="skills">

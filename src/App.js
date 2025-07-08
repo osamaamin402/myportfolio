@@ -9,6 +9,7 @@ import Services from './components/Services';
 import { useEffect } from 'react';
 import Footer from './components/Footer';
 import './styles.css';
+import JsonData from './components/data/data.json';
 
 
 function App() {
@@ -44,12 +45,12 @@ function App() {
   return (
     <>
       <Header />
-      <Home />
-      <About />
-      <Skills />
-      <Qualification />
-      <Services />
-      <Contact />
+      <Home homeData={JsonData.home} />
+      <About aboutData={JsonData.about_me}/>
+      <Skills skills={JsonData.skills}/>
+      <Qualification qualifiction={JsonData.qualifiction}/>
+      <Services servicesData={JsonData.services} />
+      <Contact contactData={JsonData.contact}/>
       <Footer />
     </>
   );
