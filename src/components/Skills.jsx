@@ -7,12 +7,12 @@ export default function Skills({skills}) {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
-  const skillGroups = skills;
+  const skillGroups = skills.details;
 
   return (
     <section className="skills section" id="skills">
-      <h2 className="section__title">Skills</h2>
-      <span className="section__subtitle">My technical level</span>
+      <h2 className="section__title">{skills.title}</h2>
+      <span className="section__subtitle">{skills.subTitle}</span>
 
       <div className="skills__container container grid">
         {skillGroups.map((group, index) => (
@@ -21,11 +21,10 @@ export default function Skills({skills}) {
               activeIndex === index ? "skills__open" : "skills__close"
             }`}
             key={index}
+            onClick={() => toggleSkills(index)}
           >
             <div
-              className="skills__header"
-              onClick={() => toggleSkills(index)}
-            >
+              className="skills__header">
               <i className={`${group.icon} skills__icon`}></i>
               <div>
                 <h1 className="skills__title">{group.title}</h1>
