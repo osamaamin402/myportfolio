@@ -1,4 +1,4 @@
-import blobImg from './images/profilepic.jpg';
+import blobImg from './images/profilepic2.jpg';
 export default function Home({ homeData }) {
     const home = homeData;
     const links = home.links;
