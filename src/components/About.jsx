@@ -27,7 +27,7 @@ export default function About({ aboutData }) {
                     </div>
 
                     <div className="about__buttons">
-                        <a download="osama_amin_khan_full_stack_developer"
+                        <a download="Osama_Amin_Khan_Full_Stack_Developer"
                             href="./pdf/resume.pdf"
                             className="button button--flex"
                             target="_blank" rel="noopener noreferrer" >
