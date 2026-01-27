@@ -2,7 +2,7 @@
     "home": {
         "title": "Hi, I'am Osama Amin",
         "role": "Full Stack Java Developer\nReact.JS Developer",
-        "short_descreption": "Experienced Full Stack Java and React JS Developer with 4 years of hands-on experience.",
+        "short_descreption": "Experienced Full Stack Java and React JS Developer with 4.4 years of hands-on experience.",
         "links": [
             {
                 "link_name": "LINKEDIN",
@@ -27,7 +27,7 @@
         "intro": "Myself Osama Amin Khan, a dedicated and passionate Full Stack Developer with over 4 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.",
         "experience": [
             {
-                "keyEvent": "4",
+                "keyEvent": "4.4",
                 "valueEvent": "Years\nexperience"
             },
             {
@@ -35,7 +35,7 @@
                 "valueEvent": "Completed\ncertifications"
             },
             {
-                "keyEvent": "02",
+                "keyEvent": "03",
                 "valueEvent": "companies\nworked"
             }
         ]
@@ -57,9 +57,24 @@
         ],
         "experience": [
             {
+                "title": "Sr. Software Engineer",
+                "subtitle": "Yash Technologies Pvt. Ltd.",
+                "year": "2025 - Present",
+                "modalIndex": 1,
+                "experience_details": {
+                    "title": "Full Stack Developer",
+                    "details": [
+                        "Implemented API for generating pdf and converting pdf into octet byte stream to reduce response time and storage.",
+                        "Improved application performance by replacing SQL queries with functions and procedures.",
+                        "Collaborated with cross-functional teams, product managers, designers, and ensuring high-quality results.",
+                        "Worked on Health Care Domain."
+                    ]
+                }
+            },
+            {
                 "title": "Assistant Manager",
                 "subtitle": "Finlogic Technologies India Pvt. Ltd | NJ Group",
-                "year": "2022 - Present",
+                "year": "2022 - 2025",
                 "modalIndex": 0,
                 "experience_details": {
                     "title": "Full Stack Java Developer | React JS Developer",
@@ -86,6 +101,7 @@
                     ]
                 }
             }
+            
         ],
         "educationData": [
             {
