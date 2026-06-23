@@ -2,17 +2,17 @@ import abouMeImg from './images/aboutImage.jpg'
 export default function About({ aboutData }) {
     return (<>
         <section className="about section" id="about">
-            <h2 className="section__title">{aboutData.title}</h2>
-            <span className="section__subtitle">{aboutData.subTitle}</span>
+            <h2 className="section__title">{aboutData?.title}</h2>
+            <span className="section__subtitle">{aboutData?.subTitle}</span>
 
             <div className="about__container container grid">
                 <img src={abouMeImg} alt="" className="about__img" />
                 <div className="about__data">
                     <p className="about__description">
-                        {aboutData.intro}
+                        {aboutData?.intro}
                     </p>
                     <div className="about__info">
-                        {aboutData.experience.map((data, index) => {
+                        {aboutData?.experience.map((data, index) => {
                             return <div key={index}>
                                 <span className="about__info-title">{data.keyEvent}</span>
                                 <span

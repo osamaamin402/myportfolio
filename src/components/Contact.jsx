@@ -22,8 +22,8 @@ export default function Contact({ contactData }) {
         setLoading(true);
 
         emailjs
-            .sendForm('service_xx2vzoq', 'template_s6m9eg8', form.current, {
-                publicKey: 'hxtW3kQi2XKhDYxNk',
+            .sendForm('service_y29hmyp', 'template_s6m9eg8', form.current, {
+                publicKey: 't29YZLEjbA7DGiD6O',
             })
             .then(
                 () => {

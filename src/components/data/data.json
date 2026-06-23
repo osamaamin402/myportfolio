@@ -24,10 +24,10 @@
     "about_me": {
         "title": "About Me",
         "subTotle": "My Introduction",
-        "intro": "Myself Osama Amin Khan, a dedicated and passionate Full Stack Developer with over 4 years of hands-on experience in building robust, scalable, and user-centric applications. I hold a Bachelor’s degree in Computer Science and Engineering (2021) from Sipna College of Engineering and Technology, Amravati. My expertise lies in Java, Spring Boot, React JS, Microservices, and working across diverse domains like finance, mutual funds, and healthcare. I bring a blend of technical proficiency, problem-solving capabilities, and team collaboration skills, making me an asset to any development team.",
+        "intro": "Myself Osama Amin Khan, I am a Full Stack Developer with over 4 years of experience in designing, developing, and maintaining scalable enterprise applications. I hold a Bachelor's degree in Computer Science and Engineering from Sipna College of Engineering and Technology, Amravati.My expertise includes Java, Spring Boot, React.js, Microservices, RESTful APIs, and modern web technologies. I have worked across diverse domains such as Finance, Mutual Funds, and Healthcare, building reliable and user-centric solutions that address real business challenges.I am passionate about solving complex problems, learning new technologies, and delivering high-quality software. I enjoy collaborating with cross-functional teams and contributing to projects that create meaningful impact.",
         "experience": [
             {
-                "keyEvent": "4.4",
+                "keyEvent": "4.7",
                 "valueEvent": "Years\nexperience"
             },
             {
@@ -357,5 +357,30 @@
                 "icon": "uil uil-linkedin contact__icon"
             }
         ]
+    },
+    "personal_info": {
+        "title": "Personal Info",
+        "subTitle": "My personal details",
+        "details": [
+            {
+                "infoTitle": "Name",
+                "infoSubTilte": "Osama Amin Khan"
+            },
+            {
+                "infoTitle": "Age",
+                "infoSubTilte": "26 Years"
+            },
+            {
+                "infoTitle": "Nationality",
+                "infoSubTilte": "Indian"
+            },
+            {
+                "infoTitle": "Address",
+                "infoSubTilte": "Amravati, Maharashtra, India"
+            }
+        ]
     }
+    ,
+    "personal_info_token": "i7qweind98345cfs6calwiu9wcnncwadj8wndnd8wda9ddh8w",
+    "personal_info_token_limit": 3
 }
